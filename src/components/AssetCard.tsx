@@ -28,15 +28,15 @@ const AssetCard = (props: AssetProps) => {
                 <div className="cornerRadiis"></div>
                 <div className="cornerRadiis2"></div>
                 <h1 className="text-[#737BAE] px-4 py-3">{coinTitle}</h1>
-                <div className="w-full bg-[#14172B] text-[#ECF0FF] text-center px-4 py-3 rounded-[17px]">${coinPrice} <span className={`${growing ? "text-[#00FFA3]" : "text-[#FF4D4D]"} absolute ml-2`}>{growing&&"+"}{gainLoss}%</span></div>
-                <h1 className="text-[#5A5F7D] px-4 py-3">Price</h1>
+                <div className="w-full bg-[#14172B] text-[#ECF0FF] text-center px-4 py-3 rounded-[17px]">${coinPrice} <span className={`${growing ? "text-[#00FFA3]" : "text-[#FF4D4D]"} absolute ml-2`}>{growing && "+"}{gainLoss}%</span></div>
+                <h1 className="text-[#5A5F7D] px-4 mb-3 mt-2">Price</h1>
                 <div className="w-full bg-[#14172B] text-[#ECF0FF] text-center px-4 py-3 rounded-[17px]">${price}</div>
-                <h1 className="text-[#5A5F7D] px-4 py-3 mb-2">TVL</h1>
+                <h1 className="text-[#5A5F7D] px-4 mb-3 mt-2">TVL</h1>
                 <div className="flex justify-center items-center bg-[#14172B] rounded-[30px] px-4">
                     {
-                        popular.map(CoinIconIt=>
+                        popular.map(CoinIconIt =>
                             <CoinIconIt className="py-2" />
-                            )
+                        )
                     }
                 </div>
                 <h1 className="text-[#737BAE] px-4 py-2">Popular pairs</h1>
