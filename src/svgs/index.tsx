@@ -1,0 +1,6 @@
+export { ReactComponent as BinanceIcon } from "./Binance Coin (BNB).svg"
+export { ReactComponent as BitcoinIcon } from "./Bitcoin SV (BSV).svg"
+export { ReactComponent as ShibuIcon } from "./SHIBA INU (SHIB).svg"
+export { ReactComponent as SolanaIcon } from "./Solana (SOL).svg"
+export { ReactComponent as EthereumIcon } from "./Ethereum (ETH).svg"
+export { ReactComponent as Activity } from "./Activity.svg"
