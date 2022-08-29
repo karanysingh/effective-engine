@@ -7,19 +7,17 @@
   width: 24px;
   position: absolute;
   top: 54px;
-  left: 72px;
-  border-top-right-radius: 100%;
   border-top: 2px solid #353444;
+  }
+  
+  .cornerRadiis-left {
+  border-top-right-radius: 100%;
+  left: 72px;
   box-shadow: 3px -3px 0px 2px #14172b;
 }
 
-.cornerRadiis2 {
-  height: 15px;
-  width: 24px;
-  position: absolute;
-  top: 54px;
-  left: 189px;
+.cornerRadiis-right {
   border-top-left-radius: 100%;
-  border-top: 2px solid #353444;
+  left: 189px;
   box-shadow: -3px -3px 0px 2px #14172b;
 }
